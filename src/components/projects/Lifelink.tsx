@@ -1,5 +1,5 @@
 import React from 'react'
-import FullLifeLink from "../../assets/FullLifelink.png"
+import FullLifelink from "../../assets/FullLifelink.jpg"
 import { Link } from 'react-router-dom'
 import { TripOrigin } from '@mui/icons-material';
 
@@ -8,7 +8,7 @@ const Lifelink: React.FC = () => {
     <div className='w-full pt-32'>
         <h1 className='text-center text-4xl xl:text-5xl font-bold text-gray-800 '>LifeLink: Online Doctors Consultation</h1>
         <div className="w-full items-center justify-center align-middle mx-auto my-4 py-2">
-            <img alt="Computer Mockup" loading="lazy" className="mx-auto object-contain lg:max-w-[1240px] sm:h-[500px] border sm:p-4 rounded-xl"  src={FullLifeLink}></img>
+            <img alt="Computer Mockup" loading="lazy" className="mx-auto object-contain lg:max-w-[1240px] sm:h-[500px] border sm:p-4 rounded-xl"  src={FullLifelink}></img>
         </div>
         <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 sm:px-12 lg:px-2">
             <div className='col-span-4'>

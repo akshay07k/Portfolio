@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { HomePage, LifelinkPage } from './pages'
+import { HomePage, LifelinkPage, YoutubePage } from './pages'
 
 
 const router = createBrowserRouter([
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: '/lifelink',
         element: <LifelinkPage />
+      },
+      {
+        path: '/backend-youtube',
+        element: <YoutubePage />
       }
     ]
   }

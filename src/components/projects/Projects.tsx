@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
                   <h2 className='text-gray-200 sm:text-white text-6xl absolute top-[-100px] left-[-50px] font-bold'>01</h2>
                   <h3 className='text-2xl text-white text-center tracking-wider font-bold'>LifeLink: Online Doctors Consultation</h3>
                   <p className='text-white text-center pb-4 pt-2'>React JS & Appwrite</p>
-                  <Link to='/' >
+                  <Link to='/lifelink' >
                   <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
                   </Link>
                 </div>  
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                   <h2 className='text-white text-6xl absolute top-[-100px] left-[-50px] font-bold'>02</h2>
                   <h3 className='text-2xl text-white text-center tracking-wider font-bold'>Complete Backend: Video Hosting App</h3>
                   <p className='text-white text-center pb-4 pt-2'>Express JS & MongoDB</p>
-                  <Link to='/' >
+                  <Link to='/backend-youtube' >
                   <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
                   </Link>
                 </div>  
