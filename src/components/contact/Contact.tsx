@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                                     <X fontSize='small'/>
                                 </div>
                                 </a>
-                                <a href="/">
+                                <a href="mailto:akshaykumar5651t@gmail.com">
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                                     <Mail fontSize='small'/>
                                 </div>

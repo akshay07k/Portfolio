@@ -1,5 +1,5 @@
 import React from 'react'
-import YoutubeProject from "../../assets/YoutubeProject.png"
+import FullYoutube from "../../assets/FullYoutube.png"
 import { Link } from 'react-router-dom'
 import { TripOrigin } from '@mui/icons-material';
 
@@ -8,14 +8,14 @@ const Youtube: React.FC = () => {
     <div className='w-full pt-32'>
         <h1 className='text-center text-4xl xl:text-5xl font-bold text-gray-800 '>Complete Backend: Video Hosting App</h1>
         <div className="w-full items-center justify-center align-middle mx-auto my-4 py-2">
-            <img alt="Computer Mockup" loading="lazy" className="mx-auto object-contain lg:max-w-[1240px] sm:h-[500px] border sm:p-4 rounded-xl"  src={YoutubeProject}></img>
+            <img alt="Computer Mockup" loading="lazy" className="mx-auto object-contain lg:max-w-[1240px] sm:h-[500px] border rounded-xl"  src={FullYoutube}></img>
         </div>
         <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 sm:px-12 lg:px-2">
             <div className='col-span-4'>
                 <p className="text-xl tracking-widest uppercase text-[#5791b5]">Skills</p>
                 <h2 className="py-4 font-bold text-3xl sm:text-4xl text-gray-700">Overview</h2>
-                <Link to="/">
-                <button className="px-8 py-2 mt-4 mr-8 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Demo</button>
+                <Link to="https://app.eraser.io/workspace/OUvwyGT8fKZQc1ldHpeT?origin=share">
+                <button className="px-8 py-2 mt-4 mr-8 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Model</button>
                 </Link>
                 <Link to="https://github.com/akshay07k/Backend">
                 <button className="px-8 py-2 mt-4 mr-8 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Code</button>

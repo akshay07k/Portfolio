@@ -15,6 +15,8 @@ const ContactForm: React.FC = () => {
 
     const onSubmit: SubmitHandler<FormInput> = (data) => {
         console.log(data);
+        const mailtoLink = `mailto:example@example.com?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(`Name: ${data.name}\nPhone: ${data.phonenumber}\nEmail: ${data.email}\n${data.description}`)}`;
+        window.location.href = mailtoLink;
     }
 
   return (
