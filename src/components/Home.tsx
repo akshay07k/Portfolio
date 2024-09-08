@@ -23,7 +23,7 @@ const Home: React.FC = () => {
 
           <h1 className='animate-slidein opacity-0 [--slidein-delay:500ms] py-2 text-gray-700 text-4xl leading-9 font-bold sm:text-5xl sm:leading-[1]'>
           <span>A Full-Stack Software Engineer </span>
-          <span className='typed-cursor typed-cursor--blink'>|</span>
+          <span className='typed-cursor typed-cursor--blink'></span>
           </h1>
 
           <p className="animate-slidein opacity-0 [--slidein-delay:700ms] py-4 text-lg text-gray-600 max-w-[70%] m-auto">
