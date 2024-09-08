@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FullLifelink from "../../assets/FullLifelink.jpg"
 import { Link } from 'react-router-dom'
 import { TripOrigin } from '@mui/icons-material';
 
 const Lifelink: React.FC = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
   return (
     <div className='w-full pt-32'>
         <h1 className='text-center text-4xl xl:text-5xl font-bold text-gray-800 '>LifeLink: Online Doctors Consultation</h1>

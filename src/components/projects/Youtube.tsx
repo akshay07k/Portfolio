@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FullYoutube from "../../assets/FullYoutube.png"
 import { Link } from 'react-router-dom'
 import { TripOrigin } from '@mui/icons-material';
 
 const Youtube: React.FC = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
   return (
     <div className='w-full pt-32'>
         <h1 className='text-center text-4xl xl:text-5xl font-bold text-gray-800 '>Complete Backend: Video Hosting App</h1>
