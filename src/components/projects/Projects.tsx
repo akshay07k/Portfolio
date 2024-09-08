@@ -1,6 +1,6 @@
 import React from 'react'
-import LifelinkProject from '../../assets/lifelinkProject.png'
-import YoutubeProject from '../../assets/youtubeProject.png'
+import LifelinkProject from '../../assets/LifelinkProject.png'
+import YoutubeProject from '../../assets/YoutubeProject.png'
 import { Link } from 'react-router-dom'
 import { useRefContext } from '../../contexts'
 
