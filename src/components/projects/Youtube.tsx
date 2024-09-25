@@ -18,10 +18,12 @@ const Youtube: React.FC = () => {
             <div className='col-span-4'>
                 <p className="text-xl tracking-widest uppercase text-[#5791b5]">Skills</p>
                 <h2 className="py-4 font-bold text-3xl sm:text-4xl text-gray-700">Overview</h2>
-                <Link to="https://app.eraser.io/workspace/OUvwyGT8fKZQc1ldHpeT?origin=share">
+                <Link to="https://app.eraser.io/workspace/OUvwyGT8fKZQc1ldHpeT?origin=share"
+                target='_blank'>
                 <button className="px-8 py-2 mt-4 mr-8 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Model</button>
                 </Link>
-                <Link to="https://github.com/akshay07k/Backend">
+                <Link to="https://github.com/akshay07k/Backend"
+                target='_blank'>
                 <button className="px-8 py-2 mt-4 mr-8 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Code</button>
                 </Link>
 
