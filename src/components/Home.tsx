@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               <X />
             </div>
             </a>
-            <a href="https://codolio.com/profile/ARy8RaTi">
+            <a href="https://codolio.com/profile/akshay07k">
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
               <Code />
             </div>
