@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
                 </ul>
             </div>
             <div>
-                <a href='https://drive.google.com/file/d/1b55NRbvm3ZR-x0E1ztfCuMOQ5hPN5piS/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1VhmL7Jz1abSMbNekofdMRzaF57JMjoI_/view'>
                 <button className="hidden sm:flex className='mt-8 w-full justify-center py-2 px-4 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Resume</button>    
                 </a>
             </div>

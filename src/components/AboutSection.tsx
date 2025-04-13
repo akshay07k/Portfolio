@@ -28,7 +28,8 @@ const AboutSection: React.FC = () => {
             I'm passionate about new technologies and solving problems, always eager to explore the latest trends in software development. As a competitive programmer with a rating of 974 on Codeforces, I continually push myself to solve complex algorithms and optimize solutions. This drive for improvement keeps me focused on building efficient and scalable applications.
             </p>
             
-            <Link to={'https://drive.google.com/file/d/1FHwVA3YC_3GfmnrQkvgQYtTOw0m1rFLf/view?usp=sharing'} className='w-2/3 sm:w-1/3 py-2 mt-8 md:mt-16 rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition duration-300 ease-out text-center'>
+            <Link to={'https://drive.google.com/file/d/1VhmL7Jz1abSMbNekofdMRzaF57JMjoI_/view'} 
+            className='w-2/3 sm:w-1/3 py-2 mt-8 md:mt-16 rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition duration-300 ease-out text-center'>
             Resume
             </Link>
             
