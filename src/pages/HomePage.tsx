@@ -1,13 +1,15 @@
 import React from 'react'
-import { Home, AboutSection, Projects, Skills, Contact } from '../components'
+import { Home, AboutSection, Experience, Projects, Skills, Achievements, Contact } from '../components'
 
 const HomePage: React.FC = () => {
   return (
     <>
       <Home />
       <AboutSection />
+      <Experience />
       <Projects />
       <Skills />
+      <Achievements />
       <Contact />
     </>
   )

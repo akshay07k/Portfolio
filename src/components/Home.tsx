@@ -22,12 +22,16 @@ const Home: React.FC = () => {
           </h1>
 
           <h1 className='animate-slidein opacity-0 [--slidein-delay:500ms] py-2 text-gray-700 text-4xl leading-9 font-bold sm:text-5xl sm:leading-[1]'>
-          <span>A Full-Stack Software Engineer </span>
+          <span>A Software Engineer </span>
           <span className='typed-cursor typed-cursor--blink'></span>
           </h1>
 
+          <h1 className='animate-slidein opacity-0 [--slidein-delay:600ms] py-2 text-gray-700 text-2xl leading-9 font-bold sm:text-3xl sm:leading-[1]'>
+          <span>Backend Development & Test Automation</span>
+          </h1>
+
           <p className="animate-slidein opacity-0 [--slidein-delay:700ms] py-4 text-lg text-gray-600 max-w-[70%] m-auto">
-          I'm a Full-Stack Software Engineer focused on creating intuitive and efficient software solutions.
+          I build reliable backend APIs and the automation frameworks that keep them honest — turning complex requirements into efficient, well-tested software.
           </p>
           <div className='animate-slidein opacity-0 [--slidein-delay:800ms] flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a href="https://github.com/akshay07k">

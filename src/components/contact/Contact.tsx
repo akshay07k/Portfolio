@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
                         </div>
                         <div>
                             <h2 className='text-3xl sm:text-4xl font-bold text-gray-800 py-2'>Akshay Kumar</h2>
-                            <p>FullStack Developer</p>
+                            <p>Software Engineer — Backend & Test Automation</p>
                             <p className='py-4'>I am available for freelance or full-time positions. Contact me</p>
                         </div>
                         <div>

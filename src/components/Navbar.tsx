@@ -7,7 +7,7 @@ import { useRefContext } from '../contexts';
 const Navbar: React.FC = () => {
     const [isAsideOpen, setIsAsideOpen] = useState(false)
 
-    const { homeRef, aboutRef, contactRef, skillRef, projectRef } = useRefContext()
+    const { homeRef, aboutRef, experienceRef, contactRef, skillRef, projectRef } = useRefContext()
 
     const scrollToSection = (
             sectionRef: RefObject<HTMLDivElement> | null, 
@@ -39,10 +39,15 @@ const Navbar: React.FC = () => {
                     >
                     <li className='ml-10 uppercase font-semibold hover:text-[#306279] lg:text-xl'>Home</li>
                     </NavLink>
-                    <NavLink to="/#about-section" 
+                    <NavLink to="/#about-section"
                     onClick={(e) => scrollToSection(aboutRef, e)}
                     >
                     <li className='ml-10 uppercase font-semibold hover:text-[#306279] lg:text-xl whitespace-nowrap'>About me</li>
+                    </NavLink>
+                    <NavLink to="/#experience"
+                    onClick={(e) => scrollToSection(experienceRef, e)}
+                    >
+                    <li className='ml-10 uppercase font-semibold hover:text-[#306279] lg:text-xl'>Experience</li>
                     </NavLink>
                     <NavLink to="/#projects"
                     onClick={(e) => scrollToSection(projectRef, e)}
@@ -62,7 +67,7 @@ const Navbar: React.FC = () => {
                 </ul>
             </div>
             <div>
-                <a href='https://drive.google.com/file/d/1h6DHakRzX060gKZ8DTk1QcxcXaAWAj3b/view?usp=sharing'>
+                <a href='https://drive.google.com/file/d/1U-wbZ_p0L9PpEwJ8eTpriFBgb3IBChlS/view?usp=sharing' target='_blank'>
                 <button className="hidden sm:flex className='mt-8 w-full justify-center py-2 px-4 text-sm rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition hover:scale-105 duration-300 ease-in">Resume</button>    
                 </a>
             </div>
@@ -84,12 +89,17 @@ const Navbar: React.FC = () => {
                         >
                         <li className='py-4 cursor-pointer'>Home</li>
                         </NavLink>
-                        <NavLink to="/#about-section" 
+                        <NavLink to="/#about-section"
                         onClick={(e) => scrollToSection(aboutRef, e)}
                         >
                         <li className='py-4 cursor-pointer'>About Me</li>
                         </NavLink>
-                        <NavLink to="/#projects" 
+                        <NavLink to="/#experience"
+                        onClick={(e) => scrollToSection(experienceRef, e)}
+                        >
+                        <li className='py-4 cursor-pointer'>Experience</li>
+                        </NavLink>
+                        <NavLink to="/#projects"
                         onClick={(e) => scrollToSection(projectRef, e)}
                         >
                         <li className='py-4 cursor-pointer'>Projects</li>

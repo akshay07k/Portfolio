@@ -8,12 +8,13 @@ function App() {
 
   const homeRef = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
+  const experienceRef = useRef<HTMLDivElement>(null);
   const projectRef = useRef<HTMLDivElement>(null);
   const skillRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
 
   return (
-    <RefProvider value={{ homeRef, aboutRef, projectRef, skillRef, contactRef}}>
+    <RefProvider value={{ homeRef, aboutRef, experienceRef, projectRef, skillRef, contactRef}}>
       <Navbar />
       <main>
           <Outlet />

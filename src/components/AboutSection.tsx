@@ -19,16 +19,16 @@ const AboutSection: React.FC = () => {
           </div>
           <div className='flex flex-col basis-1/2  items-center md:items-start'>
             <p className='block text-base sm:text-lg md:text-xl mb-2'>
-              Hi, my name is Akshay Kumar and I am a full stack developer that specializes in ReactJS, Javascript, TypeScript, the MERN stack, and NextJs.
+              Hi, I'm Akshay Kumar — a Software Engineer focused on backend development and test automation. I work primarily with Java (Spring Boot), Node.js, and modern JavaScript/TypeScript, and I build automation frameworks with Karate DSL and Playwright.
             </p>
             <p className='block text-base sm:text-lg md:text-xl mb-2'>
-            I'm 3rd year Computer Science Student, pursuing Bachelor of Engineering in Computer Science from Chitkara Univerity, Himachal Pradesh.
+            I recently completed my B.E. in Computer Science from Chitkara University (CGPA 9.7/10). At Salescode.ai I built a configurable, multi-project API test automation framework from scratch that now drives automation across 7+ client projects.
             </p>
             <p className='block text-base sm:text-lg md:text-xl'>
-            I'm passionate about new technologies and solving problems, always eager to explore the latest trends in software development. As a competitive programmer with a rating of 974 on Codeforces, I continually push myself to solve complex algorithms and optimize solutions. This drive for improvement keeps me focused on building efficient and scalable applications.
+            I care about reliable systems and clean engineering — strong API contracts, solid test coverage, and efficient code. With 300+ DSA problems solved and a Flipkart GRiD 7.0 National Semi-Finalist finish, I enjoy hard problems and building things that scale.
             </p>
             
-            <Link to={'https://drive.google.com/file/d/1VhmL7Jz1abSMbNekofdMRzaF57JMjoI_/view'} 
+            <Link to={'https://drive.google.com/file/d/1U-wbZ_p0L9PpEwJ8eTpriFBgb3IBChlS/view?usp=sharing'} target='_blank'
             className='w-2/3 sm:w-1/3 py-2 mt-8 md:mt-16 rounded-lg bg-gradient-to-r from-[#306279] to-[#5791b5] text-white uppercase shadow-xl transition duration-300 ease-out text-center'>
             Resume
             </Link>
